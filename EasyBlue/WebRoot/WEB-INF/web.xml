@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>EasyBlue</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistTelServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.RegistTelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistTelServlet</servlet-name>
+    <url-pattern>/RegistTel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistUserInfoServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.RegistUserInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistUserInfoServlet</servlet-name>
+    <url-pattern>/RegistUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckTelServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.CheckTelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckTelServlet</servlet-name>
+    <url-pattern>/CheckTel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResetPasswordServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.ResetPasswordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResetPasswordServlet</servlet-name>
+    <url-pattern>/ResetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFamilyMember</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.AddFamilyMember</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddFamilyMember</servlet-name>
+    <url-pattern>/AddFamily</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFamilyMemberServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.GetFamilyMemberServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetFamilyMemberServlet</servlet-name>
+    <url-pattern>/GetFamilyMember</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPersonInfoServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.GetPersonInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetPersonInfoServlet</servlet-name>
+    <url-pattern>/GetPersonInfo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteFMServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.DeleteFMServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteFMServlet</servlet-name>
+    <url-pattern>/DeleteFM</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFMDetailServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.GetFMDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetFMDetailServlet</servlet-name>
+    <url-pattern>/GetFMDetail</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditNameServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.EditNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditNameServlet</servlet-name>
+    <url-pattern>/EditName</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditTelServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.EditTelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditTelServlet</servlet-name>
+    <url-pattern>/EditTel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditBornTimeServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.EditBornTimeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditBornTimeServlet</servlet-name>
+    <url-pattern>/EditBornTime</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditPlaceServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.EditPlaceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditPlaceServlet</servlet-name>
+    <url-pattern>/EditPlace</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditGenderServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.EditGenderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditGenderServlet</servlet-name>
+    <url-pattern>/EditGender</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UplodImageServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.UplodImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UplodImageServlet</servlet-name>
+    <url-pattern>/UplodImage</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadStepServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.UploadStepServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadStepServlet</servlet-name>
+    <url-pattern>/UploadStep</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewsetStepServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.GetNewsetStepServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetNewsetStepServlet</servlet-name>
+    <url-pattern>/GetNewsetStep</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetStepWeekServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.GetStepWeekServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetStepWeekServlet</servlet-name>
+    <url-pattern>/GetStepWeek</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShareMsgServlet</servlet-name>
+    <servlet-class>com.EasyBlue.servlet.ShareMsgServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShareMsgServlet</servlet-name>
+    <url-pattern>/ShareMsg</url-pattern>
+  </servlet-mapping>
+</web-app>
